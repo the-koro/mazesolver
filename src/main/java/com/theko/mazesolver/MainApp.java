@@ -30,6 +30,7 @@ public class MainApp {
                 Thread.sleep(17);
             }
             Thread.sleep(5000);
+            frame.remove(mazePanel);
         }
     }
 }
